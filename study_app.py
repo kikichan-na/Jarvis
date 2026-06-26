@@ -12,7 +12,7 @@ wiki=wikipediaapi.Wikipedia(
     language='ru'
 )
 
-token = '8964269268:AAG4Iz-udvQftl-sdMH2MOYfCYIuuLC0o9k'
+token = 'YOUR_TOKEN'
 bot = telebot.TeleBot(token)
 
 def get_main_keyboard():
